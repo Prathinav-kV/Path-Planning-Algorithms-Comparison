@@ -1,0 +1,72 @@
+Read-Me File 
+
+
+Getting Started
+
+1. Open Visual Studio Code (VS Code)
+ - Load the Python files (`map1.py` and `map2.py`) in VS Code.
+
+Test Cases for `map1.py`
+
+Testcase 1
+
+Parameters:
+- Enter start x-coordinate (0-600): `10`
+- Enter start y-coordinate (0-200): `10`
+- Enter goal x-coordinate (0-600): `590`
+- Enter goal y-coordinate (0-200): `10`
+- Enter step size: `10`
+- Enter the number of iterations: `5000`
+
+Steps:
+1. Run `map1.py`.
+2. Input the parameters as listed above when prompted.
+
+Testcase 2
+
+Parameters:
+- Enter start x-coordinate (0-600): `50`
+- Enter start y-coordinate (0-200): `100`
+- Enter goal x-coordinate (0-600): `550`
+- Enter goal y-coordinate (0-200): `150`
+- Enter step size: `10`
+- Enter the number of iterations: `1000`
+
+Steps:
+1. Run `map1.py`.
+2. Input the parameters as listed above when prompted.
+
+Test Cases for `map2.py`
+
+Testcase 1
+
+Parameters:
+- Enter start x-coordinate (0-450): `10`
+- Enter start y-coordinate (0-400): `10`
+- Enter goal x-coordinate (0-450): `440`
+- Enter goal y-coordinate (0-400): `10`
+- Enter step size: `10`
+- Enter the number of iterations: `8000`
+
+Steps:
+1. Run `map2.py`.
+2. Input the parameters as listed above when prompted.
+
+Testcase 2
+
+Parameters:
+- Enter start x-coordinate (0-450): `50`
+- Enter start y-coordinate (0-400): `350`
+- Enter goal x-coordinate (0-450): `400`
+- Enter goal y-coordinate (0-400): `50`
+- Enter step size: `10`
+- Enter the number of iterations: `2000`
+
+Steps:
+1. Run `map2.py`.
+2. Input the parameters as listed above when prompted.
+
+Additional Notes
+
+- If you get just nodes and not the path for any graph, increase the number of iterations.
+- Even though the parameters are the same for iterations, the output may be different due to random sampling.
